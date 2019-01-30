@@ -18,4 +18,9 @@ public class Login {
 		return driver.findElement(googleimgclick);
 	}
 
+	By googlegmail = By.xpath("//*[@id=\'gb23\']/span[1]");
+	public WebElement googlegmail()
+	{
+		return driver.findElement(googleimgclick);
+	}
 }
